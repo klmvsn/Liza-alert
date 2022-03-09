@@ -1,0 +1,5 @@
+.column__list {
+    margin: 0;
+    display: flex;
+    text-align: center;
+}
