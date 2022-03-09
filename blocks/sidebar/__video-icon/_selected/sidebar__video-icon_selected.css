@@ -1,3 +1,4 @@
 .sidebar__video-icon_selected {
     background-image: url(../../../../images/video-icon.svg);
+    background-position: center;
 }
