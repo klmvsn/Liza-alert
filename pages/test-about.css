@@ -19,6 +19,8 @@
 @import url(../blocks/content/content.css);
 /* Подключаем общие стили для левой контентной части aside */
 @import url(../blocks/sidebar/sidebar.css);
+
+
 /* Подключаем стили для card-block */
 @import url(../blocks/card-block/card-block.css);
 @import url(../blocks/card-block/__header/card-block__header.css);
