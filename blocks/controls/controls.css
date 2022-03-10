@@ -5,4 +5,7 @@
     bottom: 34px;
     right: 34px;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }

@@ -2,4 +2,17 @@
     margin: 0;
     margin-right: 34px;
     width: 100px;
+    height: 6px;
+    background: rgba(255, 102, 0, 1);
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+.controls__volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
 }

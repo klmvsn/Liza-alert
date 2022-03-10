@@ -1,4 +1,21 @@
 .controls__progress {
     width: 468px;
+    height: 6px;
     margin: 0 34px;
+    background: rgba(147, 151, 163, 1);
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer; 
 }
+
+.controls__progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    box-shadow: -238px 0 0 238px rgba(255, 102, 0, 0.75);
+}
+
