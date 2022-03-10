@@ -1,8 +1,13 @@
 /* Подключаем стили для card-block */
 @import url(../blocks/card-block/__link/card-block__link.css);
-@import url(../blocks/card-block/__buttom/card-block__buttom.css);
+@import url(../blocks/card-block/__button/card-block__button.css);
 /* Подключаем стили для column */
 @import url(../blocks/column/column.css);
 @import url(../blocks/column/__row/column__row.css);
 @import url(../blocks/column/__list/column__list.css);
 @import url(../blocks/column/__icon/column__icon.css);
+
+@import url(../blocks/result/result.css);
+@import url(../blocks/result/_success/result_success.css);
+@import url(../blocks/result/__percent/result__percent.css);
+@import url(../blocks/result/__paragraph/result__paragraph.css);
