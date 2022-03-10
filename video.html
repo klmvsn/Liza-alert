@@ -43,19 +43,19 @@
                         poster="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/541e518a-f3e7-406f-b396-df3b7383197c/Liza-Alert.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220310%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220310T082154Z&X-Amz-Expires=86400&X-Amz-Signature=2b653f9b688a3cdf9e5612825abda1fa6bc1ea23ee81b818ea81f2125041de0a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25D0%259A%25D0%25B0%25D1%2580%25D1%2582%25D0%25B8%25D0%25BD%25D0%25BA%25D0%25B0%2520%25D0%25B4%25D0%25BB%25D1%258F%2520%25D1%2584%25D0%25BE%25D0%25BD%25D0%25B0.jpeg%22&x-id=GetObject">
                     </video>
                     <div id="controls">
-                        <span id="playpause" class="paused">Play</span>
-                        <input id="time" type="range" min="0" max="1000" step="10">
+                        <button id="playpause" class="paused">
+                            <img class="playpause__image" src="/images/video/play.svg" id="play" alt="кнопка плэй">
+                        </button>
+                        <input id="progress" type="range" min="0" max="1000" step="10">
+                        <button id="sound" class="sound">
+                            <img class="sound__image" src="/images/video/sound.svg" id="sound" alt="кнопка звук">
+                        </button>
                         <input id="volume" type="range" min="0" max="1000" step="10">
+                        <button id="fullscreen" class="fullscreen">
+                            <img class="sound__image" src="/images/video/fullscreen.svg" id="fullscreen"
+                                alt="кнопка расширить">
+                        </button>
                     </div>
-                    <span id="progress">
-                        <span id="total">
-                            <span id="buffered"><span id="current">​</span></span>
-                        </span>
-                    </span>
-                    <span id="time">
-                        <span id="currenttime">00:00</span> /
-                        <span id="duration">00:00</span>
-                    </span>
                 </div>
             </div>
         </div>
