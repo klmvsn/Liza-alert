@@ -1,0 +1,7 @@
+.result__paragraph {
+    margin: 0 0 24px;
+}
+
+.result__paragraph:last-of-type {
+    margin: 0;
+}
