@@ -1,11 +1,11 @@
 .sidebar__lesson-button {
     width: 24px;
     height: 24px;
+    margin-left: 8px;
     background-image: url(../../../images/open-lesson.svg);
-    background-size: contain;
+    background-size: 12px 8px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #fff;
     border: none;
-    margin: 8.88px 6.7px 8.87px 6.75px;
 }
