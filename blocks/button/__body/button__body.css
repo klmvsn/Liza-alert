@@ -1,0 +1,9 @@
+.button__body {
+    font-family: Golos, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #ffffff;
+    text-align: center;
+}
