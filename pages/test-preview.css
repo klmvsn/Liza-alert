@@ -1,6 +1,6 @@
 /* Подключаем стили для card-block */
 @import url(../blocks/card-block/__link/card-block__link.css);
-@import url(../blocks/card-block/__buttom/card-block__buttom.css);
+@import url(../blocks/card-block/__button/card-block__button.css);
 /* Подключаем стили для column */
 @import url(../blocks/column/column.css);
 @import url(../blocks/column/__row/column__row.css);
