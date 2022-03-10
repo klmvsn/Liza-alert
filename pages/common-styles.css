@@ -49,3 +49,6 @@
 @import url(../blocks/card-block/card-block.css);
 @import url(../blocks/card-block/__header/card-block__header.css);
 @import url(../blocks/card-block/__title/card-block__title.css);
+
+/* Общие стили для video */
+@import url(../blocks/video/video.css);
