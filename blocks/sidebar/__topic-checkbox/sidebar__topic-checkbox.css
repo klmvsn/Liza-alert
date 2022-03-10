@@ -1,0 +1,8 @@
+.sidebar__topic-checkbox {
+    width: 24px;
+    height: 100%;
+    margin: 2px;
+    background-image: url(../../../images/green-checkbox.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
