@@ -1,0 +1,14 @@
+.breadcrumbs__link {
+  display: block;
+  font-family: Golos;
+  color: #212329;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.breadcrumbs__link:hover {
+  cursor: pointer;
+}
