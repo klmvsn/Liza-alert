@@ -1,0 +1,13 @@
+.card-block__link {
+    margin: 0;
+    text-decoration: none;
+    color: #212329;
+    font-family: Golos;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
