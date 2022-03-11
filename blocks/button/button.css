@@ -8,4 +8,5 @@
     cursor: pointer;
     border: none;
     word-break: break-all;
+    box-sizing: border-box;
 }
