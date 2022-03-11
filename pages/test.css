@@ -1,5 +1,6 @@
 /* Подключаем стили для card-block */
 @import url(../blocks/card-block/__link/card-block__link.css);
+
 @import url(../blocks/card-block/__button/card-block__button.css);
 
 @import url(../blocks/test/test.css);
@@ -10,3 +11,4 @@
 @import url(../blocks/test/__visible-checkbox/test__visible-checkbox.css);
 @import url(../blocks/test/__radio/test__radio.css);
 @import url(../blocks/test/__visible-radio/test__visible-radio.css);
+

@@ -9,13 +9,14 @@
 
 /* Общие стили для action-panel и button*/
 @import url(../blocks/action-panel/action-panel.css);
+@import url(../blocks/action-panel/__button-back/action-panel__button-back.css);
+@import url(../blocks/action-panel/__button-next/action-panel__button-next.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__prepend/button__prepend.css);
 @import url(../blocks/button/__append/button__append.css);
 @import url(../blocks/button/__body/button__body.css);
-@import url(../blocks/button/__for/button_for_back.css);
-@import url(../blocks/button/__for/button_for_next.css);
-@import url(../blocks/button/__for/button_for_disabled.css);
+@import url(../blocks/button/_background-color/button_background-color_white.css);
+@import url(../blocks/button/_status/button_status_disabled.css);
 
 /* Общие стили для header */
 @import url(../blocks/header/header.css);
@@ -59,6 +60,8 @@
 @import url(../blocks/card-block/card-block.css);
 @import url(../blocks/card-block/__header/card-block__header.css);
 @import url(../blocks/card-block/__title/card-block__title.css);
+@import url(../blocks/card-block/__button/card-block__button.css);
 
 /* Общие стили для video */
 @import url(../blocks/video/video.css);
+
