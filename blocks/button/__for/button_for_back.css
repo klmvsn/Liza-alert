@@ -1,0 +1,9 @@
+.button_for_back {
+    margin-right: 24px;
+    background-color: #fff;
+    border: 1.2px solid #E6E7EB;
+}
+
+.button_for_back > .button__body {
+    color: #ff6600;
+}

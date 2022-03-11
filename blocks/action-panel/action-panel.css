@@ -1,0 +1,6 @@
+.action-panel {
+    width: 100%;
+    display: flex;
+    padding-top: 24px;
+    justify-content: flex-end;
+}

@@ -4,8 +4,18 @@
 /* Шрифты */
 @import url(../vendor/fonts.css);
 
-/* Общие стили стили для всей страницы */
+/* Общие стили для всей страницы */
 @import url(../blocks/page/page.css);
+
+/* Общие стили для action-panel и button*/
+@import url(../blocks/action-panel/action-panel.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/__prepend/button__prepend.css);
+@import url(../blocks/button/__append/button__append.css);
+@import url(../blocks/button/__body/button__body.css);
+@import url(../blocks/button/__for/button_for_back.css);
+@import url(../blocks/button/__for/button_for_next.css);
+@import url(../blocks/button/__for/button_for_disabled.css);
 
 /* Общие стили для header */
 @import url(../blocks/header/header.css);
