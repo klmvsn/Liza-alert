@@ -1,0 +1,7 @@
+.controls__bar {
+    margin: 0 34px;
+}
+
+.controls__bar:nth-of-type(2n) {
+    margin-left: 10px;
+}

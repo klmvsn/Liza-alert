@@ -1,0 +1,8 @@
+/* Подключаем стили для video */
+@import url(../blocks/video/__iframe/video__iframe.css);
+/* Подключаем стили для controls */
+@import url(../blocks/controls/controls.css);
+@import url(../blocks/controls/__progress/controls__progress.css);
+@import url(../blocks/controls/__button/controls__button.css);
+@import url(../blocks/controls/__volume/controls__volume.css);
+@import url(../blocks/controls/__bar/controls__bar.css);

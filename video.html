@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Платформа для обучения добровольцев ЛизаАлерт">
     <meta name="keywords" content="Поиск людей, НКО, ЛизаАлерт, добровольцы, обучающая платформа">
-    <meta name="author" content="Софья Климова, Станислав Левченко, Станислав Щетинин, Константин Чукавин, Евгений Русаков">
+    <meta name="author"
+        content="Софья Климова, Станислав Левченко, Станислав Щетинин, Константин Чукавин, Евгений Русаков">
     <link rel="stylesheet" href="pages/common-styles.css">
     <link rel="stylesheet" href="pages/video.css">
     <title>Учебная платформа ЛизаАлерт</title>
@@ -57,7 +58,27 @@
                     <h2 class="card-block__title">Видео</h2>
                 </div>
                 <div class="video">
-                    <video class="video__iframe" type="video" src="" poster="" allowfullscreen controls></video>
+                    <video class="video__iframe" src=""
+                        poster="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/541e518a-f3e7-406f-b396-df3b7383197c/Liza-Alert.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220310%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220310T082154Z&X-Amz-Expires=86400&X-Amz-Signature=2b653f9b688a3cdf9e5612825abda1fa6bc1ea23ee81b818ea81f2125041de0a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25D0%259A%25D0%25B0%25D1%2580%25D1%2582%25D0%25B8%25D0%25BD%25D0%25BA%25D0%25B0%2520%25D0%25B4%25D0%25BB%25D1%258F%2520%25D1%2584%25D0%25BE%25D0%25BD%25D0%25B0.jpeg%22&x-id=GetObject">
+                    </video>
+                    <div id="controls" class="controls">
+                        <button id="playpause" class="controls__button">
+                            <img class="controls__image" src="/images/video/play.svg" id="play" alt="кнопка плэй">
+                        </button>
+                        <div class="controls__bar">
+                            <input id="progress" class="controls__progress" type="range" min="0" max="1000" step="10">
+                        </div>
+                        <button id="sound" class="controls__button">
+                            <img class="controls__image" src="/images/video/sound.svg" id="sound" alt="кнопка звук">
+                        </button>
+                        <div class="controls__bar">
+                            <input id="volume" class="controls__volume" type="range" min="0" max="1000" step="10">
+                        </div>
+                        <button id="fullscreen" class="controls__button">
+                            <img class="controls__image" src="/images/video/fullscreen.svg" id="fullscreen"
+                                alt="кнопка расширить">
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -174,6 +195,7 @@
             </div>
         </div>
     </aside>
+   <script src="/scripts/video.js"></script>
 </body>
 
 </html>
