@@ -1,9 +1,9 @@
-.button_for_disabled {
+.button_status_disabled {
     background-color: #E6E7EB;
     pointer-events: none;
     cursor: default;
 }
 
-.button_for_disabled > .button__body {
+.button_status_disabled > .button__body {
     color: #9397A3;
 }
