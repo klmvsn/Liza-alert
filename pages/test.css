@@ -2,8 +2,11 @@
 @import url(../blocks/card-block/__link/card-block__link.css);
 @import url(../blocks/card-block/__button/card-block__button.css);
 
-/* Подключаем стили для column */
-@import url(../blocks/column/column.css);
-@import url(../blocks/column/__row/column__row.css);
-@import url(../blocks/column/__list/column__list.css);
-@import url(../blocks/column/__icon/column__icon.css);
+@import url(../blocks/test/test.css);
+@import url(../blocks/test/__question/test__question.css);
+@import url(../blocks/test/__answer-row/test__answer-row.css);
+@import url(../blocks/test/__answer-row/_align-two-lines/test__answer-row_align-two-lines.css);
+@import url(../blocks/test/__checkbox/test__checkbox.css);
+@import url(../blocks/test/__visible-checkbox/test__visible-checkbox.css);
+@import url(../blocks/test/__radio/test__radio.css);
+@import url(../blocks/test/__visible-radio/test__visible-radio.css);
