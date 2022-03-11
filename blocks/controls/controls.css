@@ -6,6 +6,5 @@
     right: 34px;
     z-index: 1;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    flex-direction: row;
 }

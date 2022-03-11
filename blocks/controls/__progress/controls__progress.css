@@ -1,13 +1,12 @@
 .controls__progress {
-    width: 468px;
-    height: 6px;
     margin: 0 34px;
-    background: rgba(147, 151, 163, 1);
-    -webkit-appearance: none;
+    border-radius: 16px;
+    height: 6px;
+    width: 468px;
+    background: linear-gradient(to right, rgb(255, 102, 0) 0%, rgb(255, 102, 0) 50%, rgb(147, 151, 163) 50%, rgb(147, 151, 163) 100%);
     outline: none;
-    border-radius: 6px;
-    overflow: hidden;
-    cursor: pointer; 
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
 }
 
 .controls__progress::-webkit-slider-thumb {
@@ -16,6 +15,10 @@
     height: 20px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
-    box-shadow: -238px 0 0 238px rgba(255, 102, 0, 0.75);
 }
 
+.controls__progress:hover {
+    opacity: .8;
+    cursor: pointer;
+    transition: .4s;
+}
