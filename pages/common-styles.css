@@ -1,13 +1,17 @@
 /* Общий сброс стилей*/
+
 @import url(../vendor/normalize.css);
 
 /* Шрифты */
+
 @import url(../vendor/fonts.css);
 
 /* Общие стили для всей страницы */
+
 @import url(../blocks/page/page.css);
 
 /* Общие стили для action-panel и button*/
+
 @import url(../blocks/action-panel/action-panel.css);
 @import url(../blocks/action-panel/__button-back/action-panel__button-back.css);
 @import url(../blocks/action-panel/__button-next/action-panel__button-next.css);
@@ -19,6 +23,7 @@
 @import url(../blocks/button/_status/button_status_disabled.css);
 
 /* Общие стили для header */
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/menu/menu.css);
@@ -28,6 +33,7 @@
 @import url(../blocks/menu/__icon/menu__icon.css);
 
 /* Общие стили для "Хлебных крошек" */
+
 @import url(../blocks/breadcrumbs/breadcrumbs.css);
 @import url(../blocks/breadcrumbs/__list/breadcrumbs__list.css);
 @import url(../blocks/breadcrumbs/__item/breadcrumbs__item.css);
@@ -36,10 +42,12 @@
 @import url(../blocks/breadcrumbs/__link-current/breadcrumbs__link-current.css);
 
 /* Общие стили для левой контентной части main */
+
 @import url(../blocks/main/main.css);
 @import url(../blocks/content/content.css);
 
 /* Общие стили для левой контентной части aside */
+
 @import url(../blocks/sidebar/sidebar.css);
 @import url(../blocks/sidebar/__header/sidebar__header.css);
 @import url(../blocks/sidebar/__item/sidebar__item.css);
@@ -49,19 +57,23 @@
 @import url(../blocks/sidebar/__lesson-button/sidebar__lesson-button.css);
 @import url(../blocks/sidebar/__lesson-button/_opened/sidebar__lesson-button_opened.css);
 @import url(../blocks/sidebar/__topic-options/sidebar__topic-options.css);
+@import url(../blocks/sidebar/__topic-options/_hidden/sidebar__topic-options_hidden.css);
 @import url(../blocks/sidebar/__topic-option/sidebar__topic-option.css);
 @import url(../blocks/sidebar/__topic-checkbox/sidebar__topic-checkbox.css);
+@import url(../blocks/sidebar/__topic-checkbox/_active/sidebar__topic-checkbox_active.css);
+@import url(../blocks/sidebar/__topic-checkbox/_inactive/sidebar__topic-checkbox_inactive.css);
 @import url(../blocks/sidebar/__video-icon/_selected/sidebar__video-icon_selected.css);
 @import url(../blocks/sidebar/__option-text/sidebar__option-text.css);
 @import url(../blocks/sidebar/__option-text/_selected/sidebar__option-text_selected.css);
 @import url(../blocks/sidebar/__test-icon/sidebar__test-icon.css);
 
 /* Общие стили для card-block */
+
 @import url(../blocks/card-block/card-block.css);
 @import url(../blocks/card-block/__header/card-block__header.css);
 @import url(../blocks/card-block/__title/card-block__title.css);
 @import url(../blocks/card-block/__button/card-block__button.css);
 
 /* Общие стили для video */
-@import url(../blocks/video/video.css);
 
+@import url(../blocks/video/video.css);
