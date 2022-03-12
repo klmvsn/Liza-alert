@@ -1,7 +1,7 @@
 .course-end__paragraph {
-    margin: 0 0 24px;
+  line-height: 24px;
 }
 
 .course-end__paragraph:last-of-type {
-    margin: 0;
+  margin: 0;
 }
