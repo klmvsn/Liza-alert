@@ -61,7 +61,7 @@
                     <li class="test__question">В каких случаях перспективно применение следовых кинологических расчётов?</li>
                     <div class="test__answer-row test__answer-row_align-two-lines">
                         <label for="checkbox-first" class="test__input-form">
-                        <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-first" value="checkbox-first">
+                        <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-first" value="checkbox-first" onclick="activateButton()">
                         <span class="test__visible-checkbox "></span>
                         <p class="test__checkbox-text">
                             Оказание помощи гражданам, оказавшимся в&nbsp;зонах
@@ -71,7 +71,7 @@
                     </div>
                     <div class="test__answer-row">
                         <label for="checkbox-second" class="test__input-form">
-                        <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-second" value="checkbox-second">
+                        <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-second" value="checkbox-second" onclick="activateButton()">
                         <span class="test__visible-checkbox"></span>
                         <p class="test__checkbox-text">
                             Обучение животного идти как по горячему, так и по остывшему
@@ -81,7 +81,7 @@
                     </div>
                     <div class="test__answer-row">
                         <label for="checkbox-third" class="test__input-form">
-                        <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-third" value="checkbox-third">
+                        <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-third" value="checkbox-third" onclick="activateButton()">
                         <span class="test__visible-checkbox"></span>
                         <p class="test__checkbox-text">
                             Поиск тел и их остатков с применением специально обученных
@@ -92,21 +92,21 @@
                     <li class="test__question">С какого возраста следует начинать дрессировку по курсу ПСС?</li>
                     <div class="test__answer-row">
                         <label for="radio-first" class="test__input-form">
-                        <input class="test__radio" type="radio" name="radio-answer" id="radio-first" value="radio-first">
+                        <input class="test__radio" type="radio" name="radio-answer" id="radio-first" value="radio-first" onclick="activateButton()">
                         <span class="test__visible-radio"></span>
                         <p class="test__checkbox-text">6 месяцев</p>
                     </label>
                     </div>
                     <div class="test__answer-row">
                         <label for="radio-second" class="test__input-form">
-                        <input class="test__radio" type="radio" name="radio-answer" id="radio-second" value="radio-second">
+                        <input class="test__radio" type="radio" name="radio-answer" id="radio-second" value="radio-second" onclick="activateButton()">
                         <span class="test__visible-radio"></span>
                         <p class="test__checkbox-text">1–1,5 года</p>
                     </label>
                     </div>
                     <div class="test__answer-row">
                         <label for="radio-third" class="test__input-form">
-                        <input class="test__radio" type="radio" name="radio-answer" id="radio-third" value="radio-third">
+                        <input class="test__radio" type="radio" name="radio-answer" id="radio-third" value="radio-third" onclick="activateButton()">
                         <span class="test__visible-radio"></span>
                         <p class="test__checkbox-text">3 года</p>
                     </label>
@@ -322,7 +322,8 @@
             </ul>
         </div>
     </aside>
-    <script src="/scripts/sidebar.js"></script>
+    <script src="./scripts/sidebar.js"></script>
+    <script src="./scripts/test.js"></script>
 </body>
 
 </html>
