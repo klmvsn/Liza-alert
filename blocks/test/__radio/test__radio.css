@@ -6,6 +6,10 @@
     clip: rect(0 0 0 0);
 }
 
+.test__radio:hover+.test__visible-radio {
+    cursor: pointer;
+}
+
 .test__radio:checked+.test__visible-radio {
     background-image: url(../../../images/radio-active.svg);
 }

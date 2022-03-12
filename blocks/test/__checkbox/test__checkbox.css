@@ -6,6 +6,10 @@
     clip: rect(0 0 0 0);
 }
 
+.test__checkbox:hover+.test__visible-checkbox {
+    cursor: pointer;
+}
+
 .test__checkbox:checked+.test__visible-checkbox {
     background-image: url(../../../images/checkbox-active.svg);
 }
