@@ -2,10 +2,9 @@
     display: inline-block;
     padding-right: 10px;
     min-width: 20px;
-    height: 24px; 
+    height: 24px;
     background-image: url(../../../images/checkbox.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px;
 }
-

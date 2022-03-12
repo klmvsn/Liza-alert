@@ -1,7 +1,15 @@
 .test__checkbox {
     position: absolute;
-    width: 1px; 
+    width: 1px;
     height: 1px;
-    overflow: hidden; 
+    overflow: hidden;
     clip: rect(0 0 0 0);
+}
+
+.test__checkbox:checked+.test__visible-checkbox {
+    background-image: url(../../../images/checkbox-active.svg);
+}
+
+.test__checkbox:checked~.test__checkbox-text {
+    color: #f06000;
 }
