@@ -1,7 +1,7 @@
-.sidebar__topic-checkbox {
+.sidebar__lesson-icon {
   width            : 20px;
   height           : 20px;
-  background-image : url(../../../images/green-checkbox.svg);
+  background-image : url(../../../images/sidebar_lesson_icon.svg);
   background-size  : contain;
   background-repeat: no-repeat;
 }
