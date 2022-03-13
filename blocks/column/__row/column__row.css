@@ -1,5 +1,6 @@
 .column__row {
     margin-bottom: 16px;
+		margin-left: 4px;
     display: flex;
     justify-content: space-between;
     text-align: center;

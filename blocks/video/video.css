@@ -1,9 +1,9 @@
 .video {
-    margin: 0;
-    margin-top: 32px;
-    padding: 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  margin: 0;
+  margin-top: 32px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
