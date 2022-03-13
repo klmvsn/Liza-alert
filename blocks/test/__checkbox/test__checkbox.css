@@ -18,7 +18,7 @@
     color: #f06000;
 }
 
-.test__checkbox + .test__visible-checkbox {
+.test__checkbox:disabled + .test__visible-checkbox {
   pointer-events: none;
   cursor: default;
 }
