@@ -5,6 +5,7 @@ const radioButtons = document.querySelectorAll('.test__radio');
 let radioIsActive = false;
 let checkboxIsActive = false;
 
+//Функционал кнопки "Показать результат" активная/неактивная
 function isChecked (list) {
     for (let i = 0; i< list.length; i++){
         if (list[i].checked) return true;
@@ -20,6 +21,13 @@ function renderResultButton () {
 
 radioButtons.forEach(item => item.addEventListener('click', renderResultButton ));
 checkboxes.forEach(item => item.addEventListener('click', renderResultButton ));
+
+//Функционал кнопки "Показать результат" перемещение на соответствующую страницу результата
+function revealResult () {
+  window.location.href = (radioButtons[1].checked) ? 'test-good.html' : 'test-bad.html';
+}
+
+resultButton.addEventListener('click', revealResult);
 
 
 
