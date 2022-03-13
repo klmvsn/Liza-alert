@@ -6,14 +6,19 @@
     clip: rect(0 0 0 0);
 }
 
-.test__checkbox:hover+.test__visible-checkbox {
+.test__checkbox:hover + .test__visible-checkbox {
     cursor: pointer;
 }
 
-.test__checkbox:checked+.test__visible-checkbox {
+.test__checkbox:checked + .test__visible-checkbox {
     background-image: url(../../../images/checkbox-active.svg);
 }
 
-.test__checkbox:checked~.test__checkbox-text {
+.test__checkbox:checked ~ .test__checkbox-text {
     color: #f06000;
+}
+
+.test__checkbox + .test__visible-checkbox {
+  pointer-events: none;
+  cursor: default;
 }

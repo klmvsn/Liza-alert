@@ -17,3 +17,8 @@
 .test__radio:checked~.test__checkbox-text {
     color: #f06000;
 }
+
+.test__radio:disabled + .test__visible-radio {
+  pointer-events: none;
+  cursor: default;
+}
