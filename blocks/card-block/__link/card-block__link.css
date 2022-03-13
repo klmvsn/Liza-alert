@@ -11,3 +11,7 @@
     align-items: center;
     text-align: center;
 }
+
+.card-block__link:hover {
+  text-decoration: underline;
+}
