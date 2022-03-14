@@ -80,23 +80,3 @@
 
 @import url(../blocks/video/video.css);
 
-@import url(../blocks/test/test.css);
-@import url(../blocks/test/__question/test__question.css);
-@import url(../blocks/test/__answer-row/test__answer-row.css);
-@import url(../blocks/test/__answer-row/_align-two-lines/test__answer-row_align-two-lines.css);
-@import url(../blocks/test/__input-form/test__input-form.css);
-@import url(../blocks/test/__checkbox/test__checkbox.css);
-@import url(../blocks/test/__visible-checkbox/test__visible-checkbox.css);
-@import url(../blocks/test/__checkbox-text/test__checkbox-text.css);
-@import url(../blocks/test/__radio/test__radio.css);
-@import url(../blocks/test/__visible-radio/test__visible-radio.css);
-
-@import url(../blocks/test/__banner/test__banner.css);
-@import url(../blocks/test/__test__banner-title/test__banner-title.css);
-@import url(../blocks/test/__test__banner-subtitle/test__banner-subtitle.css);
-@import url(../blocks/test/__test__banner-paragraph/test__banner-paragraph.css);
-@import url(../blocks/test/__banner/_bad-result/test__banner_bad-result.css);
-@import url(../blocks/test/_answer/test_answer_correct.css);
-@import url(../blocks/test/_answer/test_answer_incorrect.css);
-@import url(../blocks/test/_selected-answer/test_selected-answer_correct.css);
-@import url(../blocks/test/_selected-answer/test_selected-answer_incorrect.css);
