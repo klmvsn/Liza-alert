@@ -58,69 +58,72 @@
           <h2 class="card-block__title">Тест</h2>
           <a class="card-block__link" href="test-about.html">Посмотреть условия</a>
         </div>
-        <ol class="test">
-          <li class="test__item">
-            <h3 class="test__question">В каких случаях перспективно применение следовых кинологических расчётов?</h3>
-            <div class="test__answer-row test__answer-row_align-two-lines">
-              <label for="checkbox-first" class="test__input-form">
-                <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-first"
-                  value="checkbox-first">
-                <span class="test__visible-checkbox "></span>
-                <span class="test__checkbox-text">Оказание помощи гражданам, оказавшимся в&nbsp;зонах
-                  бедствия или пропавшим в&nbsp;безлюдной местности</span>
-              </label>
-            </div>
-            <div class="test__answer-row">
-              <label for="checkbox-second" class="test__input-form">
-                <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-second"
-                  value="checkbox-second">
-                <span class="test__visible-checkbox"></span>
-                <span class="test__checkbox-text">
-                  Обучение животного идти как по горячему, так и по остывшему
-                  следу
-                </span>
-              </label>
-            </div>
-            <div class="test__answer-row">
-              <label for="checkbox-third" class="test__input-form">
-                <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-third"
-                  value="checkbox-third">
-                <span class="test__visible-checkbox"></span>
-                <span class="test__checkbox-text">
-                  Поиск тел и их остатков с применением специально обученных
-                  собак
-                </span>
-              </label>
-            </div>
-          </li>
-          <li class="test__item">
-            <h3 class="test__question">С какого возраста следует начинать дрессировку по курсу ПСС?</h3>
-            <div class="test__answer-row">
-              <label for="radio-first" class="test__input-form">
-                <input class="test__radio" type="radio" name="radio-answer" id="radio-first" value="radio-first">
-                <span class="test__visible-radio"></span>
-                <span class="test__checkbox-text">6 месяцев</span>
-              </label>
-            </div>
-            <div class="test__answer-row">
-              <label for="radio-second" class="test__input-form">
-                <input class="test__radio" type="radio" name="radio-answer" id="radio-second" value="radio-second">
-                <span class="test__visible-radio"></span>
-                <span class="test__checkbox-text">1–1,5 года</span>
-              </label>
-            </div>
-            <div class="test__answer-row">
-              <label for="radio-third" class="test__input-form">
-                <input class="test__radio" type="radio" name="radio-answer" id="radio-third" value="radio-third">
-                <span class="test__visible-radio"></span>
-                <span class="test__checkbox-text">3 года</span>
-              </label>
-            </div>
-          </li>
-        </ol>
-        <button class="button card-block__button button_status_disabled" type="submit">
-          <span class="button__body">Показать результат</span>
-        </button>
+        <form name="test__form" action="#" class="test__form">
+          <ol class="test">
+            <li class="test__item">
+              <h3 class="test__question">В каких случаях перспективно применение следовых кинологических расчётов?</h3>
+              <div class="test__answer-row test__answer-row_align-two-lines">
+                <label for="checkbox-first" class="test__input-form">
+                  <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-first"
+                    value="checkbox-first">
+                  <span class="test__visible-checkbox "></span>
+                  <span class="test__checkbox-text">Оказание помощи гражданам, оказавшимся в&nbsp;зонах
+                    бедствия или пропавшим в&nbsp;безлюдной местности</span>
+                </label>
+              </div>
+              <div class="test__answer-row">
+                <label for="checkbox-second" class="test__input-form">
+                  <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-second"
+                    value="checkbox-second">
+                  <span class="test__visible-checkbox"></span>
+                  <span class="test__checkbox-text">
+                    Обучение животного идти как по горячему, так и по остывшему
+                    следу
+                  </span>
+                </label>
+              </div>
+              <div class="test__answer-row">
+                <label for="checkbox-third" class="test__input-form">
+                  <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-third"
+                    value="checkbox-third">
+                  <span class="test__visible-checkbox"></span>
+                  <span class="test__checkbox-text">
+                    Поиск тел и их остатков с применением специально обученных
+                    собак
+                  </span>
+                </label>
+              </div>
+            </li>
+            <li class="test__item">
+              <h3 class="test__question">С какого возраста следует начинать дрессировку по курсу ПСС?</h3>
+              <div class="test__answer-row">
+                <label for="radio-first" class="test__input-form">
+                  <input class="test__radio" type="radio" name="radio-answer" id="radio-first" value="radio-first">
+                  <span class="test__visible-radio"></span>
+                  <span class="test__checkbox-text">6 месяцев</span>
+                </label>
+              </div>
+              <div class="test__answer-row">
+                <label for="radio-second" class="test__input-form">
+                  <input class="test__radio" type="radio" name="radio-answer" id="radio-second" value="radio-second">
+                  <span class="test__visible-radio"></span>
+                  <span class="test__checkbox-text">1–1,5 года</span>
+                </label>
+              </div>
+              <div class="test__answer-row">
+                <label for="radio-third" class="test__input-form">
+                  <input class="test__radio" type="radio" name="radio-answer" id="radio-third" value="radio-third">
+                  <span class="test__visible-radio"></span>
+                  <span class="test__checkbox-text">3 года</span>
+                </label>
+              </div>
+            </li>
+          </ol>
+
+          <button class="button card-block__button button_status_disabled" type="submit">
+            <span class="button__body">Показать результат</span>
+          </button>
+        </form>
       </div>
     </div>
     <div class="action-panel">
