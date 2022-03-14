@@ -10,6 +10,7 @@
     content="Софья Климова, Станислав Левченко, Станислав Щетинин, Константин Чукавин, Евгений Русаков">
   <link rel="stylesheet" href="pages/common-styles.css">
   <link rel="stylesheet" href="pages/test-bad.css">
+  <link rel="stylesheet" href="pages/test.css">
   <title>Учебная платформа ЛизаАлерт</title>
 </head>
 
@@ -55,78 +56,86 @@
     <div class="content">
       <div class="card-block">
         <div class="card-block__header">
-          <h2 class="card-block__title">Тест</h2>
+          <h1 class="card-block__title">Тест</h1>
           <a class="card-block__link" href="#">Посмотреть условия</a>
         </div>
-        <ol class="test">
-          <li class="test__question">В каких случаях перспективно применение следовых кинологических расчётов?</li>
-          <div class="test__answer-row test__answer-row_align-two-lines">
-            <label for="checkbox-first" class="test__input-form">
-              <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-first"
-                value="checkbox-first" disabled>
-              <span class="test__visible-checkbox test_answer_correct test_selected-answer_correct"></span>
-              <p class="test__checkbox-text">
-                Оказание помощи гражданам, оказавшимся в&nbsp;зонах
-                бедствия или пропавшим в&nbsp;безлюдной местности
-              </p>
-            </label>
-          </div>
-          <div class="test__answer-row">
-            <label for="checkbox-second" class="test__input-form">
-              <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-second"
-                value="checkbox-second" disabled>
-              <span class="test__visible-checkbox test_answer_correct"></span>
-              <p class="test__checkbox-text">
-                Обучение животного идти как по горячему, так и по остывшему
-                следу
-              </p>
-            </label>
-          </div>
-          <div class="test__answer-row">
-            <label for="checkbox-third" class="test__input-form">
-              <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-third"
-                value="checkbox-third" disabled>
-              <span class="test__visible-checkbox test_answer_correct test_selected-answer_correct"></span>
-              <p class="test__checkbox-text">
-                Поиск тел и их остатков с применением специально обученных
-                собак
-              </p>
-            </label>
-          </div>
-          <li class="test__question">С какого возраста следует начинать дрессировку по курсу ПСС?</li>
-          <div class="test__answer-row">
-            <label for="radio-first" class="test__input-form">
-              <input class="test__radio" type="radio" name="radio-answer" id="radio-first" value="radio-first" disabled>
-              <span class="test__visible-radio test_answer_incorrect test_selected-answer_incorrect"></span>
-              <p class="test__checkbox-text">6 месяцев</p>
-            </label>
-          </div>
-          <div class="test__answer-row">
-            <label for="radio-second" class="test__input-form">
-              <input class="test__radio" type="radio" name="radio-answer" id="radio-second" value="radio-second"
-                disabled>
-              <span class="test__visible-radio test_answer_correct"></span>
-              <p class="test__checkbox-text">1–1,5 года</p>
-            </label>
-          </div>
-          <div class="test__answer-row">
-            <label for="radio-third" class="test__input-form">
-              <input class="test__radio" type="radio" name="radio-answer" id="radio-third" value="radio-third" disabled>
-              <span class="test__visible-radio test_answer_incorrect"></span>
-              <p class="test__checkbox-text">3 года</p>
-            </label>
-          </div>
-          <div class="test__banner test__banner_bad-result">
-            <h3 class="test__banner-title">33%</h3>
-            <p class="test__banner-subtitle">К сожалению, вы не набрали проходной результат.</p>
-            <p class="test__banner-paragraph">Нажмите «Пересдать», чтобы попробовать снова.</p>
-          </div>
+        <form name="test__form" action="#" class="test__form">
+          <ol class="test">
+            <li class="test__item">
+              <h2 class="test__question">В каких случаях перспективно применение следовых кинологических расчётов?</h2>
+              <div class="test__answer-row test__answer-row_align-two-lines">
+                <label for="checkbox-first" class="test__input-form">
+                  <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-first"
+                    value="checkbox-first" disabled>
+                  <span class="test__visible-checkbox test_answer_correct test_selected-answer_correct"></span>
+                  <span class="test__checkbox-text test_selected-answer-text_correct">
+                    Оказание помощи гражданам, оказавшимся в&nbsp;зонах
+                    бедствия или пропавшим в&nbsp;безлюдной местности
+                  </span>
+                </label>
+              </div>
+              <div class="test__answer-row">
+                <label for="checkbox-second" class="test__input-form">
+                  <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-second"
+                    value="checkbox-second" disabled>
+                  <span class="test__visible-checkbox test_answer_correct"></span>
+                  <span class="test__checkbox-text">
+                    Обучение животного идти как по горячему, так и по остывшему
+                    следу
+                  </span>
+                </label>
+              </div>
+              <div class="test__answer-row">
+                <label for="checkbox-third" class="test__input-form">
+                  <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-third"
+                    value="checkbox-third" disabled>
+                  <span class="test__visible-checkbox test_answer_correct test_selected-answer_correct"></span>
+                  <span class="test__checkbox-text test_selected-answer-text_correct">
+                    Поиск тел и их остатков с применением специально обученных
+                    собак
+                  </span>
+                </label>
+              </div>
+            </li>
+            <li class="test__item">
+              <h2 class="test__question">С какого возраста следует начинать дрессировку по курсу ПСС?</h2>
+              <div class="test__answer-row">
+                <label for="radio-first" class="test__input-form">
+                  <input class="test__radio" type="radio" name="radio-answer" id="radio-first" value="radio-first"
+                    disabled>
+                  <span class="test__visible-radio test_answer_incorrect test_selected-answer_incorrect"></span>
+                  <span class="test__checkbox-text test_selected-answer-text_incorrect">6 месяцев</span>
+                </label>
+              </div>
+              <div class="test__answer-row">
+                <label for="radio-second" class="test__input-form">
+                  <input class="test__radio" type="radio" name="radio-answer" id="radio-second" value="radio-second"
+                    disabled>
+                  <span class="test__visible-radio test_answer_correct"></span>
+                  <span class="test__checkbox-text">1–1,5 года</span>
+                </label>
+              </div>
+              <div class="test__answer-row">
+                <label for="radio-third" class="test__input-form">
+                  <input class="test__radio" type="radio" name="radio-answer" id="radio-third" value="radio-third"
+                    disabled>
+                  <span class="test__visible-radio test_answer_incorrect"></span>
+                  <span class="test__checkbox-text">3 года</span>
+                </label>
+              </div>
+              <div class="test__banner test__banner_bad-result">
+                <h3 class="test__banner-title">33%</h3>
+                <p class="test__banner-subtitle">К сожалению, вы не набрали проходной результат.</p>
+                <p class="test__banner-paragraph">Нажмите «Пересдать», чтобы попробовать снова.</p>
+              </div>
+            </li>
+          </ol>
           <a href="test.html" class="button card-block__button card-block__button_small">
             <img src="./images/button_icon_retake_active.svg" alt="" class="button__prepend">
             <span class="button__body">Пересдать</span>
           </a>
+        </form>
       </div>
-      </ol>
     </div>
     <div class="action-panel">
       <a href="video.html" class="button action-panel__button-back button_background-color_white">
@@ -140,7 +149,7 @@
     </div>
   </main>
   <aside class="sidebar">
-    <h3 class="sidebar__header">Содержание</h3>
+    <h2 class="sidebar__header">Содержание</h2>
     <div class="sidebar__item">
       <div class="sidebar__divider"></div>
       <div class="sidebar__topic-block">

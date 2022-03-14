@@ -14,8 +14,8 @@
   background-image: url(../../../images/checkbox-active.svg);
 }
 
-.test__checkbox:checked~.test__checkbox-text {
-  color: #f06000;
+.test__checkbox:checked~.test__checkbox-text{
+    color: #f06000;
 }
 
 .test__checkbox:disabled+.test__visible-checkbox {

@@ -1,0 +1,11 @@
+.test__item {
+  font-weight: 700;
+  margin: 0;
+}
+
+.test__item:first-child {
+  border-bottom: 1px solid #e6e7eb;
+  padding-bottom: 33px;
+}
+
+
