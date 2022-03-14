@@ -1,3 +1,5 @@
 .test__input-form {
     display: flex;
+    margin: 0;
+    font-weight: 400;
 }
