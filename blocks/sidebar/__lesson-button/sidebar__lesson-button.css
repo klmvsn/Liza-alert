@@ -1,19 +1,19 @@
 .sidebar__lesson-button {
-    width: 24px;
-    height: 24px;
-    margin-left: 8px;
-    background-image: url(../../../images/open-lesson.svg);
-    background-size: 12px 8px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #fff;
-    border: none;
-    cursor: pointer;
+  width              : 24px;
+  height             : 24px;
+  margin-left        : 8px;
+  background-image   : url(../../../images/open-lesson.svg);
+  background-size    : 12px 8px;
+  background-position: center;
+  background-repeat  : no-repeat;
+  background-color   : #fff;
+  border             : none;
+  cursor             : pointer;
 }
 
 .sidebar__lesson-button:hover {
-    transform: scale(1.3);
-    border: 1px solid #ededed;
-    border-radius: 50%;
-    box-shadow: 0 0 0 2px #ededeb80;
+  transform    : scale(1.3);
+  border       : 1px solid #ededed;
+  border-radius: 50%;
+  box-shadow   : 0 0 0 2px #ededeb80;
 }

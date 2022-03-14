@@ -1,24 +1,24 @@
 .test__radio {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
+  position: absolute;
+  width   : 1px;
+  height  : 1px;
+  overflow: hidden;
+  clip    : rect(0 0 0 0);
 }
 
 .test__radio:hover+.test__visible-radio {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .test__radio:checked+.test__visible-radio {
-    background-image: url(../../../images/radio-active.svg);
+  background-image: url(../../../images/radio-active.svg);
 }
 
 .test__radio:checked~.test__checkbox-text {
-    color: #f06000;
+  color: #f06000;
 }
 
-.test__radio:disabled + .test__visible-radio {
+.test__radio:disabled+.test__visible-radio {
   pointer-events: none;
-  cursor: default;
+  cursor        : default;
 }

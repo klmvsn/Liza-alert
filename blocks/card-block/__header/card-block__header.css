@@ -1,6 +1,6 @@
 .card-block__header {
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+  margin         : 0;
+  display        : flex;
+  justify-content: space-between;
+  text-align     : center;
 }

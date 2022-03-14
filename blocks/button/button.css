@@ -1,12 +1,25 @@
 .button {
-    display: flex;
-    justify-content: center;
-    padding: 12px 0;
-    background-color: #ff6600;
-    border-radius: 16px;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
-    word-break: break-all;
-    box-sizing: border-box;
+  position        : relative;
+  display         : flex;
+  justify-content : center;
+  padding         : 12px 0;
+  background-color: #ff6600;
+  border-radius   : 16px;
+  text-decoration : none;
+  cursor          : pointer;
+  border          : none;
+  word-break      : break-all;
+  box-sizing      : border-box;
+  transition      : box-shadow .2s;
+}
+
+.button:hover {
+  box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+.button:active {
+  box-shadow: inset -2px -2px 8px rgba(255, 102, 0, 1),
+    inset -2px -2px 12px rgba(255, 102, 0, 0.5),
+    inset 2px 2px 4px rgba(255, 102, 0, 0.1),
+    inset 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
