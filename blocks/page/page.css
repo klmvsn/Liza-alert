@@ -1,17 +1,17 @@
 .page {
-  font-family          : 'Golos', Arial, sans-serif;
-  font-style           : normal;
-  font-weight          : normal;
-  font-size            : 18px;
-  line-height          : 24px;
-  color                : #212329;
-  background-color     : #fcfcfc;
-  max-width            : 1440px;
-  margin               : 0 auto;
-  width                : 100%;
-  display              : grid;
+  font-family: 'Golos', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212329;
+  background-color: #fcfcfc;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
   grid-template-columns: 36px minmax(min-content, calc(60% + 8px)) minmax(min-content, calc(30% - 8px)) 36px;
-  grid-template-areas  :
+  grid-template-areas:
     "header header header header"
     ". breadcrumbs breadcrumbs . "
     ". content sidebar .";

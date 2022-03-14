@@ -1,9 +1,9 @@
 .test__checkbox {
   position: absolute;
-  width   : 1px;
-  height  : 1px;
+  width: 1px;
+  height: 1px;
   overflow: hidden;
-  clip    : rect(0 0 0 0);
+  clip: rect(0 0 0 0);
 }
 
 .test__checkbox:hover+.test__visible-checkbox {
@@ -20,5 +20,5 @@
 
 .test__checkbox:disabled+.test__visible-checkbox {
   pointer-events: none;
-  cursor        : default;
+  cursor: default;
 }

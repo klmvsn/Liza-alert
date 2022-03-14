@@ -1,16 +1,16 @@
 .button {
-  position        : relative;
-  display         : flex;
-  justify-content : center;
-  padding         : 12px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
   background-color: #ff6600;
-  border-radius   : 16px;
-  text-decoration : none;
-  cursor          : pointer;
-  border          : none;
-  word-break      : break-all;
-  box-sizing      : border-box;
-  transition      : box-shadow .2s;
+  border-radius: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  word-break: break-all;
+  box-sizing: border-box;
+  transition: box-shadow .2s;
 }
 
 .button:hover {
