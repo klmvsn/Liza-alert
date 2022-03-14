@@ -1,6 +1,6 @@
 .test__visible-checkbox {
     display: inline-block;
-    padding-right: 10px;
+    margin-right: 10px;
     min-width: 20px;
     height: 24px;
     background-image: url(../../../images/checkbox.svg);

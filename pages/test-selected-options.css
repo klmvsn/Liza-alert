@@ -1,7 +1,0 @@
-/* Подключаем стили для card-block */
-@import url(../blocks/card-block/__link/card-block__link.css);
-/* Подключаем стили для column */
-@import url(../blocks/column/column.css);
-@import url(../blocks/column/__row/column__row.css);
-@import url(../blocks/column/__list/column__list.css);
-@import url(../blocks/column/__icon/column__icon.css);
