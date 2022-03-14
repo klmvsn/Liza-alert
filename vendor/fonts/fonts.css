@@ -21,11 +21,3 @@
   src: url(../fonts/Golos/Golos-Text-Bold.web/Golos-Text_Bold.woff2) format('woff2');
   src: url(../fonts/Golos/Golos-Text-Bold.web/Golos-Text_Bold.woff) format('woff');
 }
-
-@font-face {
-  src:
-    url(../fonts/Golos/Golos-Text_Black.woff) format('woff'),
-    url(../fonts/Golos/Golos-Text_Black.woff2) format('woff2');
-    font-family: 'Golos';
-  font-weight: 900;
-}
