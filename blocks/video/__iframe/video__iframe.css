@@ -1,10 +1,10 @@
 .video__iframe {
-    margin: 0;
-    padding: 0;
-    width: 808px;
-    height: 456px;
-    box-shadow: 0px 0px 4px rgba(233, 234, 237, 0.6), 0px 4px 16px rgba(233, 234, 237, 0.4);
-    border-radius: 8px;
-    box-sizing: border-box;
-    background: #212329;
+  margin       : 0;
+  padding      : 0;
+  width        : 808px;
+  height       : 456px;
+  box-shadow   : 0px 0px 4px rgba(233, 234, 237, 0.6), 0px 4px 16px rgba(233, 234, 237, 0.4);
+  border-radius: 8px;
+  box-sizing   : border-box;
+  background   : #212329;
 }

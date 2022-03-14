@@ -1,11 +1,11 @@
 .column {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-family: Golos;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: #212329;
-    }
+  margin     : 0;
+  padding    : 0;
+  list-style : none;
+  font-family: Golos;
+  font-style : normal;
+  font-weight: normal;
+  font-size  : 18px;
+  line-height: 24px;
+  color      : #212329;
+}

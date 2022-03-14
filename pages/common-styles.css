@@ -66,6 +66,7 @@
 @import url(../blocks/sidebar/__option-text/sidebar__option-text.css);
 @import url(../blocks/sidebar/__option-text/_selected/sidebar__option-text_selected.css);
 @import url(../blocks/sidebar/__test-icon/sidebar__test-icon.css);
+@import url(../blocks/sidebar/__lesson-icon/sidebar__lesson-icon.css);
 
 /* Общие стили для card-block */
 

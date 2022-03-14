@@ -1,8 +1,8 @@
 .card-block__button {
-    width: 100%;
-    max-width: 224px;
-    min-width: 184px;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin: 32px auto 0;
+  width        : 100%;
+  max-width    : 224px;
+  min-width    : 184px;
+  padding-left : 24px;
+  padding-right: 24px;
+  margin       : 32px auto 0;
 }
