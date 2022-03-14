@@ -24,8 +24,8 @@
 
 @font-face {
   src:
-    url(../fonts/Golos/Golos-Text_Black.woff) format('woff'),
-    url(../fonts/Golos/Golos-Text_Black.woff2) format('woff2');
+    url(../fonts/Golos/Golos-Text-Black.web/Golos-Text_Black.woff) format('woff'),
+    url(../fonts/Golos/Golos-Text-Black.web/Golos-Text_Black.woff2) format('woff2');
     font-family: 'Golos';
   font-weight: 900;
 }
