@@ -1,9 +1,9 @@
 .column__row {
-  margin-bottom  : 16px;
-  margin-left    : 4px;
-  display        : flex;
+  margin-bottom: 16px;
+  margin-left: 4px;
+  display: flex;
   justify-content: space-between;
-  text-align     : center;
+  text-align: center;
 }
 
 .column__row:nth-of-type(3n) {

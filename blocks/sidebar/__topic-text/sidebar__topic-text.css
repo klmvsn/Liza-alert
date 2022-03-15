@@ -1,8 +1,12 @@
 .sidebar__topic-text {
-  margin     : 0;
-  width      : calc(100% - 32px);
-  font-size  : 18px;
+  margin: 0;
+  width: calc(100% - 32px);
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  color      : #212329;
+  color: #212329;
+}
+
+.sidebar__topic-text:hover {
+  cursor: pointer;
 }

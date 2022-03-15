@@ -1,10 +1,10 @@
 .sidebar {
-  grid-area       : sidebar;
+  grid-area: sidebar;
   background-color: #fff;
-  box-shadow      : 0 0 4px rgba(231, 232, 235, 0.6), 0 4px 16px rgba(231, 232, 235, 0.6);
-  border-radius   : 16px;
-  display         : flex;
-  flex-direction  : column;
-  padding         : 32px;
-  margin-bottom   : 97px;
+  box-shadow: 0 0 4px rgba(231, 232, 235, 0.6), 0 4px 16px rgba(231, 232, 235, 0.6);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  margin-bottom: 97px;
 }
