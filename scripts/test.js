@@ -23,7 +23,8 @@ radioButtons.forEach(item => item.addEventListener('click', renderResultButton )
 checkboxes.forEach(item => item.addEventListener('click', renderResultButton ));
 
 //Функционал кнопки "Показать результат" перемещение на соответствующую страницу результата
-function revealResult () {
+function revealResult (evt) {
+  evt.preventDefault();
   window.location.href = (radioButtons[1].checked) ? 'test-good.html' : 'test-bad.html';
 }
 
