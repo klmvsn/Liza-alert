@@ -1,0 +1,5 @@
+.sidebar__context-link {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    text-decoration: none;
+}
