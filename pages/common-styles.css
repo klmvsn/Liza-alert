@@ -59,6 +59,8 @@
 @import url(../blocks/sidebar/__topic-options/sidebar__topic-options.css);
 @import url(../blocks/sidebar/__topic-options/_hidden/sidebar__topic-options_hidden.css);
 @import url(../blocks/sidebar/__topic-option/sidebar__topic-option.css);
+@import url(../blocks/sidebar/__topic-option/_active/sidebar__topic-option_active.css);
+@import url(../blocks/sidebar/__context-link/sidebar__context-link.css);
 @import url(../blocks/sidebar/__topic-checkbox/sidebar__topic-checkbox.css);
 @import url(../blocks/sidebar/__topic-checkbox/_active/sidebar__topic-checkbox_active.css);
 @import url(../blocks/sidebar/__topic-checkbox/_inactive/sidebar__topic-checkbox_inactive.css);
@@ -66,6 +68,7 @@
 @import url(../blocks/sidebar/__option-text/sidebar__option-text.css);
 @import url(../blocks/sidebar/__option-text/_selected/sidebar__option-text_selected.css);
 @import url(../blocks/sidebar/__test-icon/sidebar__test-icon.css);
+@import url(../blocks/sidebar/__test-icon/_selected/sidebar__test-icon_selected.css);
 @import url(../blocks/sidebar/__lesson-icon/sidebar__lesson-icon.css);
 
 /* Общие стили для card-block */
