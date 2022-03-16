@@ -13,9 +13,9 @@
 @import url(../blocks/test/__radio/test__radio.css);
 @import url(../blocks/test/__visible-radio/test__visible-radio.css);
 @import url(../blocks/test/__banner/test__banner.css);
-@import url(../blocks/test/__test__banner-title/test__banner-title.css);
-@import url(../blocks/test/__test__banner-subtitle/test__banner-subtitle.css);
-@import url(../blocks/test/__test__banner-paragraph/test__banner-paragraph.css);
+@import url(../blocks/test/__banner-title/test__banner-title.css);
+@import url(../blocks/test/__banner-subtitle/test__banner-subtitle.css);
+@import url(../blocks/test/__banner-paragraph/test__banner-paragraph.css);
 @import url(../blocks/test/__banner/_bad-result/test__banner_bad-result.css);
 @import url(../blocks/test/_answer/test_answer_correct.css);
 @import url(../blocks/test/_answer/test_answer_incorrect.css);
