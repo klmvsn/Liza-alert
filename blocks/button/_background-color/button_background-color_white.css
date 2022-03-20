@@ -1,10 +1,7 @@
 .button_background-color_white {
   background-color: #fff;
-  border: 1.2px solid #E6E7EB;
-}
-
-.button_background-color_white>.button__body {
   color: #ff6600;
+  border: 1.2px solid #E6E7EB;
 }
 
 .button_background-color_white:active {
