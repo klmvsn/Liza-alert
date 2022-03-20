@@ -1,6 +1,5 @@
 .action-panel {
   width: 100%;
-  max-height: 48px;
   display: flex;
   padding-top: 24px;
   justify-content: flex-end;
