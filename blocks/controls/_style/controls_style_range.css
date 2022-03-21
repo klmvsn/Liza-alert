@@ -1,0 +1,23 @@
+.controls_style_range {
+  background: linear-gradient(to right, rgb(255, 102, 0) 0%, rgb(255, 102, 0) 50%, rgb(147, 151, 163) 50%, rgb(147, 151, 163) 100%);
+  margin: 0;
+  border-radius: 16px;
+  height: 6px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+
+.controls_style_range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+}
+
+.controls_style_range:hover {
+  opacity: .8;
+  cursor: pointer;
+  transition: .4s;
+}
