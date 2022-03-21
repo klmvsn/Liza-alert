@@ -1,5 +1,14 @@
 .sidebar__context-link {
-    display: grid;
+    display: flex;
     grid-template-columns: 24px 1fr;
     text-decoration: none;
+    color: #212329;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sidebar__context-link::before {
+    margin-right: 10px;
+    content: url(../../../images/green-checkbox.svg);
 }
