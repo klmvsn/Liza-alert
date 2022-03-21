@@ -43,26 +43,26 @@
             <li class="breadcrumbs__item">
                 <a class="breadcrumbs__link" href="#">5. Работа «второго номера» совместно со следовым кинологическим
           расчётом</a>
-                <span class="breadcrumbs__sep"></span>
-            </li>
-            <li class="breadcrumbs__item">
-                <a class="breadcrumbs__link breadcrumbs__link-current" href="#">Тест</a>
-            </li>
-        </ul>
-    </nav>
-    <main class="main">
-        <div class="content">
-            <div class="card-block">
-                <div class="card-block__header">
-                    <h1 class="card-block__title">Тест</h1>
-                    <a class="card-block__link" href="test-about.html">Посмотреть условия</a>
-                </div>
-                <form name="test" action="#" class="test">
-                    <ol class="test__list">
-                        <li class="test__item">
-                            <h2 class="test__question">В каких случаях перспективно применение следовых кинологических расчётов?</h2>
-                            <div class="test__answer-row test__answer-row_align-two-lines">
-                                <label for="checkbox-first" class="test__input-form">
+        <span class="breadcrumbs__sep"></span>
+      </li>
+      <li class="breadcrumbs__item">
+        <a class="breadcrumbs__link breadcrumbs__link-current" href="#">Тест</a>
+      </li>
+    </ul>
+  </nav>
+  <main class="main">
+    <section class="content">
+      <div class="card-block">
+        <div class="card-block__header">
+          <h1 class="card-block__title">Тест</h1>
+          <a class="card-block__link" href="test-about.html">Посмотреть условия</a>
+        </div>
+        <form name="test" action="#" class="test">
+          <ol class="test__list">
+            <li class="test__item">
+              <h2 class="test__question">В каких случаях перспективно применение следовых кинологических расчётов?</h2>
+              <div class="test__answer-row test__answer-row_align-two-lines">
+                <label for="checkbox-first" class="test__input-form">
                   <input class="test__checkbox" type="checkbox" name="checkbox-answer" id="checkbox-first"
                     value="checkbox-first">
                   <span class="test__visible-checkbox "></span>
@@ -118,18 +118,59 @@
                     <button class="button button_size_l card-block__button button_status_disabled" type="submit">
             Показать результат
           </button>
-                </form>
-            </div>
-        </div>
-        <div class="action-panel">
-            <button onClick="location.href='#'" class="button button_size_m button_theme_white action-panel__button-back" type="button">
+        </form>
+      </div>
+    </div>
+    <div class="action-panel">
+      <button class="button button_size_m button_theme_white action-panel__button-back" type="button" name="back">
         <img src="./images/button_icon_back.svg" alt="Стрелка направленная влево символизирующая переход на предыдущую страницу курса." class="button__prepend">
         Назад
       </button>
-            <button onClick="location.href='./test-preview.html'" class="button button_size_m action-panel__button-next button_status_disabled" type="button">
+      <button class="button button_size_m action-panel__button-next button_status_disabled" type="button" name="next">
         Далее
         <img src="./images/button_icon_next_disabled.svg" alt="Стрелка направленная вправо символизирующая переход на следующую страницу курса." class="button__append">
       </button>
+    </section>
+  </main>
+  <aside class="sidebar">
+    <h2 class="sidebar__header">Содержание</h2>
+    <ul class="sidebar__context">
+      <li class="sidebar__item">
+        <div class="sidebar__topic-block">
+          <p class="sidebar__topic-text">1. В каких случаях перспективно применение следовых кинологических расчётов</p>
+          <button class="sidebar__lesson-button"></button>
+        </div>
+        <ul class="sidebar__topic-options sidebar__topic-options_hidden">
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox sidebar__lesson-icon"></div>
+              <p class="sidebar__option-text">Урок</p>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar__item">
+        <div class="sidebar__topic-block">
+          <p class="sidebar__topic-text">2. Необходимые обеспечительные меры для успешного применения следовых
+            (розыскных собак)
+          </p>
+          <button class="sidebar__lesson-button"></button>
+        </div>
+        <ul class="sidebar__topic-options sidebar__topic-options_hidden">
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox sidebar__lesson-icon"></div>
+              <p class="sidebar__option-text">Урок</p>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar__item">
+        <div class="sidebar__topic-block">
+          <p class="sidebar__topic-text">3. Особенности привлечения следовых расчётов на ПСР и особенности
+            взаимодействия
+          </p>
+          <button class="sidebar__lesson-button sidebar__lesson-button_opened"></button>
         </div>
     </main>
     <aside class="sidebar">
@@ -239,9 +280,12 @@
                 </ul>
             </li>
         </ul>
-    </aside>
-    <script src="/scripts/sidebar.js"></script>
-    <script src="/scripts/test.js"></script>
+      </li>
+    </ul>
+  </aside>
+  <script src="/scripts/sidebar.js"></script>
+  <script src="/scripts/test.js"></script>
+  <script src="/scripts/transition.js"></script>
 </body>
 
 </html>

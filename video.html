@@ -43,35 +43,35 @@
             <li class="breadcrumbs__item">
                 <a class="breadcrumbs__link" href="#">5. Работа «второго номера» совместно со следовым кинологическим
           расчётом</a>
-                <span class="breadcrumbs__sep"></span>
-            </li>
-            <li class="breadcrumbs__item">
-                <a class="breadcrumbs__link breadcrumbs__link-current" href="#">Видео</a>
-            </li>
-        </ul>
-    </nav>
-    <main class="main">
-        <div class="content">
-            <div class="card-block">
-                <div class="card-block__header">
-                    <h2 class="card-block__title">Видео</h2>
-                </div>
-                <div class="video">
-                    <video class="video__iframe" src="#" poster="images/video/poster.jpeg"></video>
-                    <div id="controls" class="controls">
-                        <button id="playpause" class="controls__button">
+        <span class="breadcrumbs__sep"></span>
+      </li>
+      <li class="breadcrumbs__item">
+        <a class="breadcrumbs__link breadcrumbs__link-current" href="#">Видео</a>
+      </li>
+    </ul>
+  </nav>
+  <main class="main">
+    <section class="content">
+      <div class="card-block">
+        <div class="card-block__header">
+          <h1 class="card-block__title">Видео</h1>
+        </div>
+        <div class="video">
+          <video class="video__iframe" src="#" poster="images/video/poster.jpeg"></video>
+          <div id="controls" class="controls">
+            <button id="playpause" class="controls__button">
               <img class="controls__image" src="/images/video/play.svg" id="play" alt="кнопка плэй">
             </button>
-                        <div class="controls__bar">
-                            <input id="progress" class="controls__progress" type="range" min="0" max="1000" step="10">
-                        </div>
-                        <button id="sound" class="controls__button">
+            <div class="controls__bar">
+              <input id="progress" class="controls__progress controls_style_range" type="range" min="0" max="1000" step="10">
+            </div>
+            <button id="sound" class="controls__button">
               <img class="controls__image" src="/images/video/sound.svg" id="image" alt="кнопка звук">
             </button>
-                        <div class="controls__bar">
-                            <input id="volume" class="controls__volume" type="range" min="0" max="1000" step="10">
-                        </div>
-                        <button id="fullscreen" class="controls__button">
+            <div class="controls__bar">
+              <input id="volume" class="controls__volume controls_style_range" type="range" min="0" max="1000" step="10">
+            </div>
+            <button id="fullscreen" class="controls__button">
               <img class="controls__image" src="/images/video/fullscreen.svg" id="fullscreen-image"
                 alt="кнопка расширить">
             </button>
@@ -79,15 +79,162 @@
                 </div>
             </div>
         </div>
-        <div class="action-panel">
-            <button onClick="location.href='#'" class="button action-panel__button-back button_size_m button_theme_white" type="button">
+      </div>
+    </div>
+    <div class="action-panel">
+      <button class="button action-panel__button-back button_size_m button_theme_white" type="button" name="back">
         <img src="./images/button_icon_back.svg" alt="Стрелка направленная влево символизирующая переход на предыдущую страницу курса." class="button__prepend">
         Назад
       </button>
-            <button onClick="location.href='./test-preview.html'" class="button action-panel__button-next button_size_m" type="button">
+      <button class="button action-panel__button-next button_size_m" type="button" name="next">
         Далее
         <img src="./images/button_icon_next.svg" alt="Стрелка направленная вправо символизирующая переход на следующую страницу курса." class="button__append">
       </button>
+    </section>
+  </main>
+  <aside class="sidebar">
+    <h2 class="sidebar__header">Содержание</h2>
+    <ul class="sidebar__context">
+      <li class="sidebar__item">
+        <div class="sidebar__topic-block">
+          <p class="sidebar__topic-text">1. В каких случаях перспективно применение следовых кинологических расчётов</p>
+          <button class="sidebar__lesson-button"></button>
+        </div>
+        <ul class="sidebar__topic-options sidebar__topic-options_hidden">
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox sidebar__lesson-icon"></div>
+              <p class="sidebar__option-text">Урок</p>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar__item">
+        <div class="sidebar__topic-block">
+          <p class="sidebar__topic-text">2. Необходимые обеспечительные меры для успешного применения следовых
+            (розыскных собак)
+          </p>
+          <button class="sidebar__lesson-button"></button>
+        </div>
+        <ul class="sidebar__topic-options sidebar__topic-options_hidden">
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox sidebar__lesson-icon"></div>
+              <p class="sidebar__option-text">Урок</p>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar__item">
+        <div class="sidebar__topic-block">
+          <p class="sidebar__topic-text">3. Особенности привлечения следовых расчётов на ПСР и особенности
+            взаимодействия
+          </p>
+          <button class="sidebar__lesson-button sidebar__lesson-button_opened"></button>
+        </div>
+        <ul class="sidebar__topic-options">
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox"></div>
+              <p class="sidebar__option-text">Урок</p>
+            </a>
+          </li>
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox"></div>
+              <p class="sidebar__option-text">Вебинар</p>
+            </a>
+          </li>
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox"></div>
+              <p class="sidebar__option-text">Урок</p>
+            </a>
+          </li>
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox"></div>
+              <p class="sidebar__option-text">Видео</p>
+            </a>
+          </li>
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox"></div>
+              <p class="sidebar__option-text">Тест</p>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar__item">
+        <div class="sidebar__topic-block">
+          <p class="sidebar__topic-text">4. Корректная постановка задачи кинологу и особенности её исполнения</p>
+          <button class="sidebar__lesson-button sidebar__lesson-button_opened"></button>
+        </div>
+        <ul class="sidebar__topic-options">
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox"></div>
+              <p class="sidebar__option-text">Вебинар</p>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar__item">
+        <div class="sidebar__topic-block">
+          <p class="sidebar__topic-text">5. Работа «второго номера» совместно со следовым кинологическим расчётом</p>
+          <button class="sidebar__lesson-button sidebar__lesson-button_opened"></button>
+        </div>
+        <ul class="sidebar__topic-options">
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox"></div>
+              <p class="sidebar__option-text">Дрессировка поисково-спасательных собак</p>
+            </a>
+          </li>
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox"></div>
+              <p class="sidebar__option-text">Вебинар</p>
+            </a>
+          </li>
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox"></div>
+              <p class="sidebar__option-text">Урок</p>
+            </a>
+          </li>
+          <li class="sidebar__topic-option sidebar__topic-option_active">
+            <div class="sidebar__topic-checkbox sidebar__video-icon_selected"></div>
+            <p class="sidebar__option-text sidebar__option-text_selected">Видео</p>
+          </li>
+          <li class="sidebar__topic-option">
+            <a href="./test-preview.html" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox sidebar__test-icon"></div>
+              <p class="sidebar__option-text">Тест</p>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar__item">
+        <div class="sidebar__topic-block">
+          <p class="sidebar__topic-text">6. Оценка качества и особенности анализа результата проделанной следовым
+            кинологическим расчётом работы</p>
+          <button class="sidebar__lesson-button"></button>
+        </div>
+        <ul class="sidebar__topic-options sidebar__topic-options_hidden">
+          <li class="sidebar__topic-option">
+            <a href="#" class="sidebar__context-link">
+              <div class="sidebar__topic-checkbox sidebar__lesson-icon"></div>
+              <p class="sidebar__option-text">Урок</p>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar__item">
+        <div class="sidebar__topic-block">
+          <p class="sidebar__topic-text">7. Особенности и пределы использования РПРС ом полученной в ходе применения
+            специальной следовой собаки информации в целях успешного разрешения поисков</p>
+          <button class="sidebar__lesson-button"></button>
         </div>
     </main>
     <aside class="sidebar">
@@ -197,9 +344,12 @@
                 </ul>
             </li>
         </ul>
-    </aside>
-    <script src="/scripts/sidebar.js"></script>
-    <script src="/scripts/video.js"></script>
+      </li>
+    </ul>
+  </aside>
+  <script src="/scripts/sidebar.js"></script>
+  <script src="/scripts/video.js"></script>
+  <script src="/scripts/transition.js"></script>
 </body>
 
 </html>
