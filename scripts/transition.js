@@ -4,9 +4,9 @@ switch(location.pathname) {
     case '/video.html':
     transition(allButtons, '#', './test-preview.html', '#');
     case '/test.html':
-    transition(allButtons, '#', './test-preview.html', '#');    
+    transition(allButtons, '#', './test-preview.html', '#');
     case '/test-preview.html':
-    transition(allButtons, '#', './test-preview.html', './test.html');   
+    transition(allButtons, '#', './test-preview.html', './test.html');
     case '/test-good.html':
     transition(allButtons, '#', './test-preview.html', './test.html');
     case '/test-bad.html':
