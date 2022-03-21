@@ -6,7 +6,7 @@
 @import url(../blocks/test/__item/test__item.css);
 @import url(../blocks/test/__question/test__question.css);
 @import url(../blocks/test/__answer-row/test__answer-row.css);
-@import url(../blocks/test/__answer-row/_align-two-lines/test__answer-row_align-two-lines.css);
+@import url(../blocks/test/__answer-row/_aligned/test__answer-row_aligned_two-lines.css);
 @import url(../blocks/test/__input-form/test__input-form.css);
 @import url(../blocks/test/__checkbox/test__checkbox.css);
 @import url(../blocks/test/__visible-checkbox/test__visible-checkbox.css);
