@@ -1,9 +1,0 @@
-.breadcrumbs__sep {
-  width: 26px;
-  height: 24px;
-  background: center no-repeat url(/images/breadcrumbs/arrow_right.svg);
-  background-color: transparent;
-  background-size: 24px 24px;
-  border: none;
-  align-self: center;
-}

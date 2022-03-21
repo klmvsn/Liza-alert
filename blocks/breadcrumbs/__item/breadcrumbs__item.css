@@ -1,4 +1,13 @@
 .breadcrumbs__item {
   display: flex;
   padding: 0;
+  height: 24px;
+}
+
+.breadcrumbs__item::after {
+  content: url(/images/breadcrumbs/arrow_right.svg);
+}
+
+.breadcrumbs__item:last-child::after {
+  display: none;
 }

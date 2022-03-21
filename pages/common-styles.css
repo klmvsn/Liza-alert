@@ -40,7 +40,6 @@
 @import url(../blocks/breadcrumbs/__list/breadcrumbs__list.css);
 @import url(../blocks/breadcrumbs/__item/breadcrumbs__item.css);
 @import url(../blocks/breadcrumbs/__link/breadcrumbs__link.css);
-@import url(../blocks/breadcrumbs/__sep/breadcrumbs__sep.css);
 @import url(../blocks/breadcrumbs/__link-current/breadcrumbs__link-current.css);
 
 /* Общие стили для левой контентной части main */
@@ -78,6 +77,7 @@
 @import url(../blocks/card-block/card-block.css);
 @import url(../blocks/card-block/__header/card-block__header.css);
 @import url(../blocks/card-block/__title/card-block__title.css);
+@import url(../blocks/card-block/__subtitle/card-block__subtitle.css);
 @import url(../blocks/card-block/__button/card-block__button.css);
 @import url(../blocks/card-block/__button/_middle/card-block__button_middle.css);
 @import url(../blocks/card-block/__button/_small/card-block__button_small.css);
