@@ -12,3 +12,8 @@
     margin-right: 10px;
     content: url(../../../images/green-checkbox.svg);
 }
+
+.sidebar__context-link:hover {
+  cursor: pointer;
+  opacity: .8;
+}

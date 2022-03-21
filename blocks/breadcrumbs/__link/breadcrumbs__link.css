@@ -6,4 +6,5 @@
 
 .breadcrumbs__link:hover {
   cursor: pointer;
+  opacity: .8;
 }
