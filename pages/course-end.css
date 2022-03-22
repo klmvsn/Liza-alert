@@ -1,3 +1,5 @@
+/* Подключаем стили для course-end */
+
 @import url(../blocks/course-end/course-end.css);
 @import url(../blocks/course-end/__title/course-end__title.css);
 @import url(../blocks/course-end/__paragraph/course-end__paragraph.css);

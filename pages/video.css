@@ -1,6 +1,9 @@
 /* Подключаем стили для video */
+
 @import url(../blocks/video/__iframe/video__iframe.css);
+
 /* Подключаем стили для controls */
+
 @import url(../blocks/video/__controls/video__controls.css);
 @import url(../blocks/video/__progress/video__progress.css);
 @import url(../blocks/video/__button/video__button.css);

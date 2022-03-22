@@ -2,6 +2,9 @@
 
 @import url(../blocks/card-block/__link/card-block__link.css);
 @import url(../blocks/card-block/__button/card-block__button.css);
+
+/* Подключаем стили для test */
+
 @import url(../blocks/test/__list/test__list.css);
 @import url(../blocks/test/__item/test__item.css);
 @import url(../blocks/test/__question/test__question.css);
