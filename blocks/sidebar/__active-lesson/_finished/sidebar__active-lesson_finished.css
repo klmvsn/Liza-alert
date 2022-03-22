@@ -1,9 +1,0 @@
-.sidebar__active-lesson_finished {
-    color: #212329;
-    margin: 0;
-}
-
-.sidebar__active-lesson_finished::before {
-    margin-right: 10px;
-    content: url(../../../../images/green-checkbox.svg);
-}
