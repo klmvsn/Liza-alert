@@ -15,7 +15,7 @@
 }
 
 .test__checkbox:checked~.test__checkbox-text{
-    color: #f06000;
+  color: #f06000;
 }
 
 .test__checkbox:disabled+.test__visible-checkbox {
