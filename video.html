@@ -54,24 +54,19 @@
         <h1 class="card-block__title">Видео</h1>
         <div class="video">
           <video class="video__iframe" src="#" poster="images/video/poster.jpeg"></video>
-          <div id="controls" class="controls">
-            <button id="playpause" class="controls__button">
-              <img class="controls__image" src="/images/video/play.svg" id="play" alt="кнопка плэй">
+          <div id="controls" class="video__controls">
+            <button id="playpause" class="video__button">
+              <img class="video__image" src="/images/video/play.svg" id="play" alt="кнопка плэй">
             </button>
-
-              <input id="progress" class="controls__progress controls_style_range" type="range" min="0" max="1000"
-                step="10">
-
-            <button id="sound" class="controls__button">
-              <img class="controls__image" src="/images/video/sound.svg" id="image" alt="кнопка звук">
+            <input id="progress" class="video__progress video__controls_style_range" type="range" min="0" max="1000"
+              step="10">
+            <button id="sound" class="video__button">
+              <img class="video__image" src="/images/video/sound.svg" id="image" alt="кнопка звук">
             </button>
-
-              <input id="volume" class="controls__volume controls_style_range" type="range" min="0" max="1000"
-                step="10">
-
-            <button id="fullscreen" class="controls__button">
-              <img class="controls__image" src="/images/video/fullscreen.svg" id="fullscreen-image"
-                alt="кнопка расширить">
+            <input id="volume" class="video__volume video__controls_style_range" type="range" min="0" max="1000"
+              step="10">
+            <button id="fullscreen" class="video__button">
+              <img class="video__image" src="/images/video/fullscreen.svg" id="fullscreen-image" alt="кнопка расширить">
             </button>
           </div>
         </div>
@@ -87,8 +82,7 @@
       <button class="button action-panel__button-next button_size_m" type="button" name="next">
         Далее
         <img src="./images/button_icon_next.svg"
-          alt="Стрелка направленная вправо символизирующая переход на следующую страницу курса."
-          class="button__append">
+          alt="Стрелка направленная вправо символизирующая переход на следующую страницу курса." class="button__append">
       </button>
     </section>
   </main>
