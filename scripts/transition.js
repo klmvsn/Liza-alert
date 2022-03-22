@@ -1,4 +1,5 @@
 const allButtons = document.querySelectorAll('.button');
+
 function transition(buttons, linkForButtonBack, linkForButtonNext, linkForButtonResult) {
   buttons.forEach(button => {
     if (button.name === 'back') {

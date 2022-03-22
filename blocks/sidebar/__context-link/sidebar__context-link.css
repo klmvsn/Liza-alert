@@ -9,6 +9,7 @@
 }
 
 .sidebar__context-link::before {
+    height: 24px;
     margin-right: 10px;
     content: url(../../../images/green-checkbox.svg);
 }
