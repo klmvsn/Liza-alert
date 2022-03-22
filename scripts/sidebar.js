@@ -10,14 +10,14 @@ function initialAccordeon(topicsList, buttons, listOptions) {
   buttons.forEach((button, index) => {
     button.setAttribute('name', 'lesson-' + index);
     button.addEventListener('click', function () {
-      button.classList.toggle('sidebar__lesson-button_opened');
-      listOptions[index].classList.toggle('sidebar__topic-options_hidden');
+      button.classList.toggle('sidebar__lesson-button_status_opened');
+      listOptions[index].classList.toggle('sidebar__topic-options_status_hidden');
     });
   });
   topicsList.forEach((topic, index) => {
     topic.addEventListener('click', function () {
-      allButtonOptionList[index].classList.toggle('sidebar__lesson-button_opened');
-      listOptions[index].classList.toggle('sidebar__topic-options_hidden');
+      allButtonOptionList[index].classList.toggle('sidebar__lesson-button_status_opened');
+      listOptions[index].classList.toggle('sidebar__topic-options_status_hidden');
     });
   });
 }
