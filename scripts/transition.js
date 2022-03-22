@@ -18,7 +18,9 @@ function transition(buttons, linkForButtonBack, linkForButtonNext, linkForButton
     }
   });
 }
+
 // ('кнопки', 'ссылка для кнопки назад', 'ссылка для кнопки далее', 'ссылка для кнопки card-block') //
+
 switch (location.pathname) {
   case '/video.html':
     transition(allButtons, '#', './test-preview.html', '#');
