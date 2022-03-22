@@ -7,6 +7,7 @@
 
 .breadcrumbs__item::after {
   content: url(/images/breadcrumbs/arrow_right.svg);
+  width: 24px;
 }
 
 .breadcrumbs__item:last-child::after {
