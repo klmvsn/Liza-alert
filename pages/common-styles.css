@@ -18,8 +18,10 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__prepend/button__prepend.css);
 @import url(../blocks/button/__append/button__append.css);
-@import url(../blocks/button/__body/button__body.css);
-@import url(../blocks/button/_background-color/button_background-color_white.css);
+@import url(../blocks/button/_size/button_size_s.css);
+@import url(../blocks/button/_size/button_size_m.css);
+@import url(../blocks/button/_size/button_size_l.css);
+@import url(../blocks/button/_theme/button_theme_white.css);
 @import url(../blocks/button/_status/button_status_disabled.css);
 
 /* Общие стили для header */
@@ -38,7 +40,6 @@
 @import url(../blocks/breadcrumbs/__list/breadcrumbs__list.css);
 @import url(../blocks/breadcrumbs/__item/breadcrumbs__item.css);
 @import url(../blocks/breadcrumbs/__link/breadcrumbs__link.css);
-@import url(../blocks/breadcrumbs/__sep/breadcrumbs__sep.css);
 @import url(../blocks/breadcrumbs/__link-current/breadcrumbs__link-current.css);
 
 /* Общие стили для левой контентной части main */
@@ -55,18 +56,17 @@
 @import url(../blocks/sidebar/__topic-block/sidebar__topic-block.css);
 @import url(../blocks/sidebar/__topic-text/sidebar__topic-text.css);
 @import url(../blocks/sidebar/__lesson-button/sidebar__lesson-button.css);
-@import url(../blocks/sidebar/__lesson-button/_opened/sidebar__lesson-button_opened.css);
+@import url(../blocks/sidebar/__lesson-button/_status/sidebar__lesson-button_status_opened.css);
 @import url(../blocks/sidebar/__topic-options/sidebar__topic-options.css);
-@import url(../blocks/sidebar/__topic-options/_hidden/sidebar__topic-options_hidden.css);
+@import url(../blocks/sidebar/__topic-options/_status/sidebar__topic-options_status_hidden.css);
 @import url(../blocks/sidebar/__topic-option/sidebar__topic-option.css);
-@import url(../blocks/sidebar/__topic-option/_active/sidebar__topic-option_active.css);
+@import url(../blocks/sidebar/__context/sidebar__context.css);
 @import url(../blocks/sidebar/__context-link/sidebar__context-link.css);
-@import url(../blocks/sidebar/__topic-checkbox/sidebar__topic-checkbox.css);
-@import url(../blocks/sidebar/__topic-checkbox/_active/sidebar__topic-checkbox_active.css);
-@import url(../blocks/sidebar/__topic-checkbox/_inactive/sidebar__topic-checkbox_inactive.css);
+@import url(../blocks/sidebar/__context-link/_type/sidebar__context-link_type_lesson.css);
+@import url(../blocks/sidebar/__active-lesson/sidebar__active-lesson.css);
+@import url(../blocks/sidebar/__active-lesson/_type/sidebar__active-lesson_type_video.css);
+@import url(../blocks/sidebar/__active-lesson/_type/sidebar__active-lesson_type_test.css);
 @import url(../blocks/sidebar/__video-icon/_selected/sidebar__video-icon_selected.css);
-@import url(../blocks/sidebar/__option-text/sidebar__option-text.css);
-@import url(../blocks/sidebar/__option-text/_selected/sidebar__option-text_selected.css);
 @import url(../blocks/sidebar/__test-icon/sidebar__test-icon.css);
 @import url(../blocks/sidebar/__test-icon/_selected/sidebar__test-icon_selected.css);
 @import url(../blocks/sidebar/__lesson-icon/sidebar__lesson-icon.css);
@@ -76,6 +76,7 @@
 @import url(../blocks/card-block/card-block.css);
 @import url(../blocks/card-block/__header/card-block__header.css);
 @import url(../blocks/card-block/__title/card-block__title.css);
+@import url(../blocks/card-block/__subtitle/card-block__subtitle.css);
 @import url(../blocks/card-block/__button/card-block__button.css);
 @import url(../blocks/card-block/__button/_middle/card-block__button_middle.css);
 @import url(../blocks/card-block/__button/_small/card-block__button_small.css);

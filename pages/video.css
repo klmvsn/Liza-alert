@@ -1,8 +1,12 @@
 /* Подключаем стили для video */
+
 @import url(../blocks/video/__iframe/video__iframe.css);
+
 /* Подключаем стили для controls */
-@import url(../blocks/controls/controls.css);
-@import url(../blocks/controls/__progress/controls__progress.css);
-@import url(../blocks/controls/__button/controls__button.css);
-@import url(../blocks/controls/__volume/controls__volume.css);
-@import url(../blocks/controls/__bar/controls__bar.css);
+
+@import url(../blocks/video/__controls/video__controls.css);
+@import url(../blocks/video/__progress/video__progress.css);
+@import url(../blocks/video/__button/video__button.css);
+@import url(../blocks/video/__volume/video__volume.css);
+@import url(../blocks/video/__controls/_style/video__controls_style_range.css);
+@import url(../blocks/video/__image/video__image.css);

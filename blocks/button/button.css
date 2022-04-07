@@ -2,6 +2,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 12px 0;
   background-color: #ff6600;
   border-radius: 16px;
@@ -11,6 +12,11 @@
   word-break: break-all;
   box-sizing: border-box;
   transition: box-shadow .2s;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.33;
 }
 
 .button:hover {

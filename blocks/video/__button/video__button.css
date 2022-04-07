@@ -1,0 +1,17 @@
+.video__button {
+  margin: 0;
+  padding: 0;
+  height: 24px;
+  width: 24px;
+  background-color: rgba(33, 35, 41, 0);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video__button:hover {
+  opacity: 0.7;
+  transition: .4s;
+}

@@ -1,5 +1,6 @@
 .action-panel__button-back {
   width: 100%;
   max-width: 184px;
+  max-height: 48px;
   margin-right: 24px;
 }

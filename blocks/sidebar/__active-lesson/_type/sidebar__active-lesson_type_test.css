@@ -1,0 +1,4 @@
+.sidebar__active-lesson_type_test::before {
+  margin-right: 10px;
+  content: url(../../../../images/test-icon-active.svg);
+}

@@ -1,0 +1,3 @@
+.sidebar__context-link_type_lesson::before {
+  content: url(../../../../images/sidebar_lesson_icon.svg);
+}

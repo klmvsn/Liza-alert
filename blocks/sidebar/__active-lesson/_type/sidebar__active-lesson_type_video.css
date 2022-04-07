@@ -1,0 +1,4 @@
+.sidebar__active-lesson_type_video::before {
+  margin-right: 10px;
+  content: url(../../../../images/video-icon.svg);
+}
